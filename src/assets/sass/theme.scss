@@ -1,0 +1,27 @@
+$color__tab: #444;
+$color__tab-active: #d6ab3e;
+$background__main: #dce2e2;
+$color__light: #fff;
+$color__dark: #000;
+$width__max: 680px;
+$padding: 1rem;
+$border__radius: 3px;
+$lighten__level: 6;
+$darken__level: 6;
+$font__family: 'Roboto', sans-serif;
+$font__weight: 300;
+$font__size: 16px;
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: $color__light;
+    color: $color__tab;
+    font-family: $font__family;
+    font-weight: $font__weight;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+  }
