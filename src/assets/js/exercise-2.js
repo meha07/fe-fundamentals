@@ -3,7 +3,7 @@ $(function () {
 	'use strict';
 
   const getJSONData = function () {
-    $.getJSON('https://raw.githubusercontent.com/meha07/fe-fundamentals/master/data.json',function(data){
+    $.getJSON('https://raw.githubusercontent.com/meha07/fe-fundamentals/main/data.json',function(data){
       $.each(data,function(i,emp){
         $('#tab' + (i+1)).html(emp.title);
         $('#tab' + (i+1) +'-tab .ootb-tabcordion--entry-content').html(emp.content);
